@@ -533,7 +533,7 @@ header .go-back i {
     position: relative;
     display: flex;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
     padding: 0;
     border: 0;
     overflow: hidden;
@@ -542,16 +542,16 @@ header .go-back i {
     transform: translate3d(0px, 0px, 0px);
 }
 
-.bg-cover:before, 
-.bg-cover:after { 
-    position: absolute; 
-    z-index: 1; 
-    width: 100%; 
-    height: 100%; 
-    display: block; 
-    left: 0; top: 0; 
-    content: ""; 
-    backdrop-filter: blur(0.1vw); 
+.bg-cover:before,
+.bg-cover:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0; top: 0;
+    content: "";
+    backdrop-filter: blur(0.1vw);
     background: rgba(0, 0, 0, 0.1); }
 
 
@@ -559,8 +559,13 @@ header .go-back i {
     height: 100vh;
 }
 
-.post-cover {
+/* .post-cover {
     height: 40vh !important;
+} */
+
+.post-cover {
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 .bg-cover:after {
