@@ -33,6 +33,10 @@ body {
     /* font-family: 'ZCOOL XiaoWei', serif;  */
     font-size: 1.2rem; } 
 
+#articleContent > ol > li{ 
+    /* font-family: 'ZCOOL XiaoWei', serif;  */
+    font-size: 1.2rem; } 
+
 #articleContent > ul { 
     /* font-family: 'ZCOOL XiaoWei', serif;  */
     font-size: 1.2rem; } 
